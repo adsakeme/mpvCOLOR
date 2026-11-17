@@ -171,7 +171,7 @@
 
     <main>
         <h1>Privacy Policy</h1>
-        <p class="effective-date"><strong>Effective date:</strong> November 8, 2026</p>
+        <p class="effective-date"><strong>Effective date:</strong> November 17, 2026</p>
 
         <div class="summary">
             <p>
@@ -196,8 +196,9 @@
         <p>
             You do not need to create an account or submit personal contact
             information to use the Application. Game progress, completed
-            characters, and preferences are stored locally on your device
-            until you choose an available cloud backup feature. Optional backups use Apple iCloud on iOS and Google Play Games Saved Games on Android. Availability depends on your installed version and platform configuration.
+            characters, and preferences are stored on your device. The app
+            offers optional in-game backups, and Android can also back up
+            eligible app data through its system backup service.
         </p>
         <p>
             The Service Provider does not receive your name, postal address,
@@ -208,10 +209,12 @@
         <h2 id="cloud-backup">Optional cloud backups</h2>
         <p>When you choose Backup, the app sends saved game progress and settings to your platform account’s app-private storage: Apple iCloud on iOS or Google Play Games Saved Games on Android. Saved data can include coloring progress, collection and unlock state, in-game balances, mini game records and preferences. Backup and restore require an internet connection and the relevant platform account. The app does not ask for your Apple or Google account password.</p>
         <p>Backups are initiated through the game’s settings. Restore replaces the progress on the current device. iCloud and Google Play Games backups are separate; this feature does not provide transfer between iOS and Android. Apple and Google process platform account and service information under their own privacy policies.</p>
+        <p>On Android, Google Play Games may authenticate an eligible Play Games profile in the background when the game opens. The game uses the Play Games player ID to verify that the selected profile remains the same during backup, restore, and deletion. The Play Games SDK may also process profile and service diagnostic information. Playing does not require creating an mpvCOLOR account or using the in-game backup feature.</p>
+        <p>Android system backup operates separately from the in-game backup. When enabled and supported on your device, Android can back up and restore eligible app preferences and files under your system backup settings.</p>
         <p>See <a href="https://www.apple.com/legal/privacy/">Apple’s Privacy Policy</a> and <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>.</p>
         <h2 id="delete-data">Deleting saved data and backups</h2>
-        <p>In Settings, open the game-data / backup controls and choose the available delete-backup action. This removes or clears the app’s cloud backup on the selected platform; it does not erase progress already stored on this device or another device. On Android, the game clears the saved-game slot and Google Play Games synchronizes the change when connected. On iOS, the game removes its iCloud backup value and iCloud synchronizes the change.</p>
-        <p>Removing local app data or uninstalling the app does not by itself delete a cloud backup. Local removal options depend on your operating system, and operating-system backups may restore app data later. Use the in-game delete-backup control separately. If you need help, contact <a href="mailto:micropixelversecoloring@gmail.com">micropixelversecoloring@gmail.com</a>. Do not send passwords or copies of private account credentials.</p>
+        <p>Open the backup controls in the game’s settings and confirm <strong>Delete Backup</strong>. On Android, this replaces the contents of the selected Play Games saved-game slot with an empty backup. Google Play Games synchronizes the change when connected. On iOS, the game removes its iCloud backup value and iCloud synchronizes the change. Platform retention policies apply.</p>
+        <p>The in-game action covers the selected game backup. Local progress, Android system backups, platform accounts and profiles, and advertising data are managed separately. Uninstalling or clearing local app data does not clear the in-game cloud backup. For instructions and privacy requests, see <a href="support.html#delete-data">Help &amp; Support</a> or contact <a href="mailto:micropixelversecoloring@gmail.com">micropixelversecoloring@gmail.com</a>.</p>
         <h2>3. Advertising and information processed by Google</h2>
         <p>
             The Application uses Google Mobile Ads (AdMob), a third-party
@@ -237,7 +240,7 @@
                 taps, and video views associated with advertising;
             </li>
             <li>
-                diagnostic information, including non-user-related crash logs;
+                diagnostic information, which on iOS may include non-user-related crash logs;
             </li>
             <li>
                 performance information, such as launch time, hang rate, and
@@ -339,11 +342,10 @@
         </p>
 
         <p>Cloud game progress remains until you replace or delete the backup, subject to the platform provider’s synchronization, account and retention policies. If you email support, we receive your email address and the information you choose to send. We use it to respond and keep it only as needed to handle the request or meet applicable legal obligations.</p>
-        <h2>10. Children’s privacy and age ranges</h2>
-        <p>mpvCOLOR is intended for a mixed audience, including children and adults. In the updated Android version, a neutral age-range screen helps apply appropriate advertising protections. It asks for an age range, not an exact birth date. The selection is stored locally on the device and is not included in the app’s cloud game-progress backups. Players can continue without selecting an age range and receive the more protective treatment.</p>
-        <p>On Android, players under 13 and players of unknown age receive child-directed advertising treatment. Players aged 13–17 also receive conservative under-age-of-consent advertising treatment. These groups do not receive interest-based personalized advertising or remarketing. Android ad requests use a general-audience content rating limit. The relevant age-treatment flags are provided to Google; the app does not send a birth date or a separately maintained age profile to us.</p>
-        <p>For adult Android players, Google’s consent message is displayed where required before advertisements can be requested. Where Google requires a privacy-options entry point, <strong>Settings &gt; Ad Privacy Choices</strong> allows the player to revisit their choices. Declining personalized advertising does not prevent access to the game; advertisement availability depends on Google’s resulting privacy settings. Availability of this flow depends on the installed app version.</p>
-        <p>We do not ask children to provide names, contact details or other direct personal information to play. Platform sign-in for cloud backup is optional and subject to Apple’s or Google’s account eligibility and parental controls. Parents and guardians may contact <a href="mailto:micropixelversecoloring@gmail.com">micropixelversecoloring@gmail.com</a> about privacy or deletion requests. Advertising and platform services may still process the limited information described elsewhere in this policy to deliver permitted services, secure them and prevent fraud.</p>
+        <h2>10. Android audience and advertising privacy</h2>
+        <p>The Google Play release targets players aged 13 and older. The updated Android version no longer asks for an age range at startup. It can use a previous choice saved on the device to apply advertising protections. The game does not include this choice in its Play Games backup. Android system backup may include local preferences depending on your settings.</p>
+        <p>In the updated Android version, ads are disabled for players who previously selected an age below 13. Players with an unknown age or a previous selection of 13–17 receive under-age-of-consent advertising treatment, which disables personalized advertising and remarketing. Android ad requests use a general-audience content rating limit.</p>
+        <p>Where applicable, Google’s consent flow controls whether ads can be requested. Where Google requires a privacy-options entry point, <strong>Settings &gt; Ad Privacy Choices</strong> allows players to revisit their choices. Google’s User Messaging Platform processes applicable ad privacy preferences and consent signals. Parents and guardians can contact <a href="mailto:micropixelversecoloring@gmail.com">micropixelversecoloring@gmail.com</a> about privacy or deletion requests.</p>
 
         <h2>11. Security</h2>
         <p>
